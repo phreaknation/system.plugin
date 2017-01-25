@@ -1,0 +1,9 @@
+(function() {
+  'use strict';
+
+  <%= contents %>
+
+  window.PhreakNation = window.PhreakNation || {};
+  window.PhreakNation.Plugins = window.PhreakNation.Plugins || {};
+  window.PhreakNation.Plugins[__pluginname] = plugin;
+})();
